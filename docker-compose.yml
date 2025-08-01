@@ -1,0 +1,13 @@
+services:
+
+  app:
+    image: python-flask:1.0
+    ports:
+      - ${PORT}:${PORT}
+    env_file:
+      - .env
+
+
+
+
+
